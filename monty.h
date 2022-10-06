@@ -1,5 +1,6 @@
 #ifndef _MONTY_H_
 #define _MONTY_H_
+#define _XOPEN_SOURCE 700
 
 #include <stdlib.h>
 #include <stdio.h>
