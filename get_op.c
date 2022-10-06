@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * get_op - check op against valid opcodes
- * @op: op to check
- * @stack: double pointer to the beginnig of the stack
- * @line_number: script line number
- *
- * Return: void
- */
+* get_op - check op against valid opcodes
+* @op: op to check
+* @stack: double pointer to the beginnig of the stack
+* @line_number: script line number
+*
+* Return: void
+*/
 void get_op(char *op, stack_t **stack, unsigned int line_number)
 {
 	size_t i;

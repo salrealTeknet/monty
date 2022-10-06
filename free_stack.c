@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * free_stack - frees the stack on exit
- * @status: exit status
- * @arg: double pointer to the stack
- *
- * Return: void
- */
+* free_stack - frees the stack on exit
+* @status: exit status
+* @arg: double pointer to the stack
+*
+* Return: void
+*/
 void free_stack(int status, void *arg)
 {
 	stack_t **stack;

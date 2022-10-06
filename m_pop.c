@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * m_pop - pop top element off of `stack'
- * @stack: double pointer to head of stack
- * @line_number: line number of current operation
- *
- * Return: void
- */
+* m_pop - pop top element off of `stack'
+* @stack: double pointer to head of stack
+* @line_number: line number of current operation
+*
+* Return: void
+*/
 void m_pop(stack_t **stack, unsigned int line_number)
 {
 	stack_t *pop = *stack;
