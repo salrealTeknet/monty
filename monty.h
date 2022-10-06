@@ -8,7 +8,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-
+#include <errno.h>
+#include <limits.h>
+#include <ctype.h>
 /**
  * struct var_s - struct to contain the main variables of the Monty interpreter
  * @queue: flag to determine if in stack vs queue mode
