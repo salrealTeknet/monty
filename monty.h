@@ -1,6 +1,10 @@
 #ifndef _MONTY_H_
 #define _MONTY_H_
 #define _XOPEN_SOURCE 700
+#define _POSIX_C_SOURCE  200809L
+#define _GNU_SOURCE
+
+
 
 #include <stdlib.h>
 #include <stdio.h>
